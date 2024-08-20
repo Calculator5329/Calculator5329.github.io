@@ -809,6 +809,7 @@ function customBoardScreen() {
     }
 
     if( presetList[6] == true) {
+        console.log("HIII")
         boardNums = window.prompt("Enter Board Nums: ").split(",")
     }
     else {
