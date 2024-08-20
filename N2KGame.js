@@ -768,7 +768,7 @@ function customBoardScreen() {
         range = presetList[0]
         diceRange = presetList[1]
         botSpeed = presetList[2]
-
+       
         //presetList[3] true means a pattern board false means random
 
         if (presetList[3] == true) {
@@ -807,7 +807,13 @@ function customBoardScreen() {
     if (diceRange < 2) {
         diceRange = 2
     }
-    boardNums = (generateBoard(range, randomBoard))
+
+    if( presetList[6] == true) {
+        boardNums = window.prompt("Enter Board Nums: ").split(",")
+    }
+    else {
+        boardNums = (generateBoard(range, randomBoard))
+    }
 }
 function removeFractionals(list) {
     let i = 0
