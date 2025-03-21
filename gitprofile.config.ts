@@ -47,7 +47,7 @@ const CONFIG = {
           description:
             'This project uses OpenAIs embedding models and an open-source book review dataset to generate vector representations of books based on their content and themes. These embeddings are indexed using FAISS for fast similarity searches. The backend is deployed on Google Cloud, allowing users to input a book or reading preferences and receive personalized, content-driven recommendations in real time. ',
           imageUrl:
-            'https://i.imgur.com/9s9OkcT.jpeg',
+            'https://i.imgur.com/TuwX6q3.jpeg',
           link: 'https://calculator5329.github.io/book-reccomendations-r/',
         },
       ],
