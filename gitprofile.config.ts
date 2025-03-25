@@ -58,6 +58,14 @@ const CONFIG = {
             'https://i.imgur.com/TuwX6q3.jpeg',
           link: 'https://calculator5329.github.io/book-reccomendations-r/',
         },
+        {
+          title: 'Stock Portfolio Analyzer (in progress)',
+          description:
+            'Building a Python-based tool for backtesting investment strategies using real historical stock data. Users can create custom portfolios, allocate investment amounts, and simulate performance over time. Currently expanding the project into a full web application with interactive visualizations and improved analytics. Built with Pandas, Matplotlib, and Yahoo Finance API.',
+          imageUrl:
+            'https://i.imgur.com/aW04gzf.png',
+          link: 'https://github.com/Calculator5329/portfolio-visualizer',
+        },
       ],
     },
   },
