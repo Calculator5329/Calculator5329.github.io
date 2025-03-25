@@ -98,7 +98,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://archive.org/download/ethan-gates-resume-r_202503/Ethan%20Gates%20Resume_R.docx', // Empty fileUrl will hide the `Download Resume` button.
+      'https://archive.org/download/eg-resume-3-24/EG_Resume_3_24.docx', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
