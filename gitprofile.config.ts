@@ -43,6 +43,14 @@ const CONFIG = {
           link: 'https://capstone-frontend-1-calculator5329-ethans-projects-becdb732.vercel.app/',
         },
         {
+          title: 'ArXiv Dashboard',
+          description:
+            'This project is an NLP-powered arXiv explorer built with FastAPI and React, deployed on Google Cloud. It features RAG-based Q&A using FAISS and Gemini, with GPT-generated summaries and interactive chatbots per paper.',
+          imageUrl:
+            'https://i.imgur.com/6MH80qX.jpeg',
+          link: 'https://calculator5329.github.io/ai-papers/',
+        },
+        {
           title: 'Book Reccomendation Website',
           description:
             'This project uses OpenAIs embedding models and an open-source book review dataset to generate vector representations of books based on their content and themes. These embeddings are indexed using FAISS for fast similarity searches. The backend is deployed on Google Cloud, allowing users to input a book or reading preferences and receive personalized, content-driven recommendations in real time. ',
