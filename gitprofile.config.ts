@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['Calculator5329/news-bias-analyzer', 'Calculator5329/portfolio-visualizer', 'Calculator5329/book-reccomendations-r' , 'Calculator5329/Finance-Dashboard', 'Calculator5329/N2K-ComprehensiveSolver', ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Calculator5329/ai-papers', 'Calculator5329/news-bias-analyzer', 'Calculator5329/book-reccomendations-r' , 'Calculator5329/stock-site', 'Calculator5329/N2K-ComprehensiveSolver', 'Calculator5329/infinite-horizons'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
