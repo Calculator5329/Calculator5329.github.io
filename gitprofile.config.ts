@@ -63,7 +63,7 @@ const CONFIG = {
           description:
             'Building a Python-based tool for backtesting investment strategies using real historical stock data. Users can create custom portfolios, allocate investment amounts, and simulate performance over time. Currently expanding the project into a full web application with interactive visualizations and improved analytics. Built with Pandas, Matplotlib, and Yahoo Finance API.',
           imageUrl:
-            'https://i.imgur.com/aW04gzf.png',
+            'https://i.imgur.com/b455H8s.png',
           link: 'https://github.com/Calculator5329/portfolio-visualizer',
         },
       ],
