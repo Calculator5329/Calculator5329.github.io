@@ -59,12 +59,12 @@ const CONFIG = {
           link: 'https://calculator5329.github.io/book-reccomendations-r/',
         },
         {
-          title: 'Stock Portfolio Analyzer (in progress)',
+          title: 'Stock Portfolio Analyzer',
           description:
-            'Building a Python-based tool for backtesting investment strategies using real historical stock data. Users can create custom portfolios, allocate investment amounts, and simulate performance over time. Currently expanding the project into a full web application with interactive visualizations and improved analytics. Built with Pandas, Matplotlib, and Yahoo Finance API.',
+            'This project is a full-stack web app for interactive portfolio backtesting using historical stock data. Built with FastAPI and Next.js, the backend is deployed on Azure and the frontend is hosted on Netlify. Optimized with Pickle for faster data loading, powered by Pandas and NumPy.',
           imageUrl:
             'https://i.imgur.com/b455H8s.png',
-          link: 'https://github.com/Calculator5329/portfolio-visualizer',
+          link: 'https://cheery-tiramisu-028ceb.netlify.app/',
         },
       ],
     },
