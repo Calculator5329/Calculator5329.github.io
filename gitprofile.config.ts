@@ -40,7 +40,7 @@ const CONFIG = {
             'This project is an AI-powered web application that classifies news articles based on political bias (Left, Neutral, Right) and authenticity (Fake vs. Real News) using machine learning and OpenAIs embedding API. The deep neural net and application logic were deployed on a FastAPI backend and connected to a basic React frontend, hosted on Vercel.',
           imageUrl:
             'https://i.imgur.com/fAGOD5x.jpeg',
-          link: 'https://capstone-frontend-1-calculator5329-ethans-projects-becdb732.vercel.app/',
+          link: 'https://capstone-frontend-1-beige.vercel.app/',
         },
         {
           title: 'ArXiv Dashboard',
