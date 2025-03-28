@@ -98,7 +98,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://archive.org/download/eg-resume-3-24/EG_Resume_3_24.docx', // Empty fileUrl will hide the `Download Resume` button.
+      'https://archive.org/download/eg-resume-3-24_20250328/EG_Resume_3_24.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
