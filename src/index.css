@@ -1,13 +1,50 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0f0f11; /* dark slate / deep black */
+  color: #8a8a8a; /* light gray text for default */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  color: #8a8a8a; /* soft blue */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #cacaca; /* lighter blue on hover */
+  text-decoration: bold;
+}
+
+a:visited {
+  color: #4f83c4; /* optional: tweak if you want visited links to look different */
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 960px) {
+}
+
+@media (max-width: 1500px) {
+  .projects-container {
+    grid-template-columns: 1fr !important;
+  }
 }
