@@ -9,9 +9,26 @@ body {
   color: #8a8a8a; /* light gray text for default */
 }
 
+html {
+  height: 100%;
+  overflow-y: scroll; /* allows scroll */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #d0d0d0; /* light gray */
 }
 
 a {
@@ -35,12 +52,41 @@ a:visited {
   gap: 1rem;
   justify-content: center;
   padding: 2rem;
+  align-items: flex-start;
+  animation: fadeIn 1s ease-out both;
 }
 
-@media (max-width: 768px) {
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 500px) {
+  .left-icons {
+    left: 0px !important;
+  }
+
+  .right-icons {
+    right: 0px !important;
+  }
+
+  .tech-icons {
+    gap: 12px;
+  }
+
+  .tech-icon-wrapper {
+    width: 28px !important;
+    height: 28px !important;
+  }
+
+  .tech-icon {
+    width: 16px !important;
+    height: 16px !important;
+  }
 }
 
 @media (max-width: 1500px) {

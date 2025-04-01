@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Profile.css";
 import ProfileLinks from "./ProfileLinks";
+import TechStack from "./TechStack";
 
 export default function Profile() {
   return (
@@ -36,6 +37,38 @@ export default function Profile() {
       </div>
       <div className="profile-card">
         <ProfileLinks />
+      </div>
+      <div className="profile-card" style={{ paddingTop: "0.5rem" }}>
+        <TechStack
+          title="Languages"
+          stack={[
+            { src: "/icon/Python.svg", name: "Python" },
+            { src: "/icon/Javascript.svg", name: "Javascript" },
+            { src: "/icon/MySQL.svg", name: "SQL" },
+            { src: "/icon/CSharp.svg", name: "C#" },
+            { src: "/icon/Java.svg", name: "Java" },
+          ]}
+        />
+        <TechStack
+          title="Frameworks & Libraries"
+          stack={[
+            { src: "/icon/React.svg", name: "React" },
+            { src: "/icon/FastAPI.svg", name: "FastAPI" },
+            { src: "/icon/Flask.svg", name: "Flask" },
+            { src: "/icon/Tensorflow.svg", name: "TensorFlow" },
+            { src: "/icon/Pandas.svg", name: "Pandas" },
+          ]}
+        />
+        <TechStack
+          title="Infrastructure & Tools"
+          stack={[
+            { src: "/icon/Google Cloud.svg", name: "Google Cloud" },
+            { src: "/icon/Azure.svg", name: "Azure" },
+            { src: "/icon/Docker.svg", name: "Docker" },
+            { src: "/icon/Raspberry Pi.svg", name: "Raspberry Pi" },
+            { src: "/icon/GitHub.svg", name: "GitHub" },
+          ]}
+        />
       </div>
     </div>
   );
