@@ -1,10 +1,11 @@
-// components/TechStack.js
 import React from "react";
 import "../styles/Education.css";
 
-export default function TechStack({ title, stack }) {
+// <h2 className="education-title">Education & Certifications</h2>
+
+export default function Education({ title, stack }) {
   return (
-    <div>
+    <div className="education-container-m">
       <div className="education-container">
         <div className="education-card">
           <a
@@ -13,7 +14,11 @@ export default function TechStack({ title, stack }) {
             rel="noopener noreferrer"
             className="education-logo-link"
           >
-            <img src="/wgu.png" alt="WGU Logo" className="education-logo" />
+            <img
+              src={`${process.env.PUBLIC_URL}/wgu.png`}
+              alt="WGU Logo"
+              className="education-logo"
+            />
           </a>
           <div className="education-content">
             <div className="education-separator"></div>
@@ -25,13 +30,17 @@ export default function TechStack({ title, stack }) {
           </div>
           <div className="diploma-div">
             <a
-              href="/diploma.pdf"
+              href={`${process.env.PUBLIC_URL}/diploma.pdf`}
               download
               target="_blank"
               rel="noopener noreferrer"
               className="diploma-link"
             >
-              <img src="/diploma.png" alt="Diploma" className="diploma-logo" />
+              <img
+                src={`${process.env.PUBLIC_URL}/diploma.png`}
+                alt="Diploma"
+                className="diploma-logo"
+              />
             </a>
           </div>
         </div>
@@ -45,7 +54,7 @@ export default function TechStack({ title, stack }) {
           >
             <div className="certification-content">
               <img
-                src="/LPI.png"
+                src={`${process.env.PUBLIC_URL}/LPI.png`}
                 alt="Icon"
                 className="certification-logo"
                 style={{ borderRadius: "100%" }}
@@ -59,13 +68,17 @@ export default function TechStack({ title, stack }) {
             </div>
           </a>
           <a
-            href="https://www.peoplecert.org/login"
+            href="https://candidate.peoplecert.org/MobileReports.aspx?id=C50C19EEFA7581640739F630619F04D8B7A6E580CDD16994E3B69E74FCF888569FED31E56DB917176ABEC007D03A6DF753832C24816B2DC03504AD9E0F142E4193AE88E5F7F13A98A487BDCCB2938A0480D00B5A59F5B795031B740DE24F9B4650F74B35776B8839454DBF66CD2F715EE4C40BF02A5B7F644658564C52B04EC5"
             target="_blank"
             rel="noopener noreferrer"
             className="certification-link"
           >
             <div className="certification-content">
-              <img src="/ITIL.png" alt="Icon" className="certification-logo" />
+              <img
+                src={`${process.env.PUBLIC_URL}/ITIL.png`}
+                alt="Icon"
+                className="certification-logo"
+              />
 
               <div className="certification-separator"></div>
               <div className="education-text">

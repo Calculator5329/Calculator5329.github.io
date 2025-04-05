@@ -54,6 +54,7 @@ a:visited {
   padding: 2rem;
   align-items: flex-start;
   animation: fadeIn 1s ease-out both;
+  width: 100% - rem(1rem);
 }
 
 @keyframes fadeIn {
@@ -66,6 +67,18 @@ a:visited {
 }
 
 @media (max-width: 500px) {
+  .education-container-m {
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  .education-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 5% 0% !important;
+  }
+
   .left-icons {
     left: 0px !important;
   }
@@ -89,8 +102,55 @@ a:visited {
   }
 }
 
+@media (max-width: 1200px) {
+  .education-logo {
+    height: 48px !important;
+    object-fit: fill;
+    align-self: left !important;
+  }
+
+  .education-card a {
+    width: 56px !important;
+    height: 56px !important;
+  }
+
+  .education-text h3 {
+    font-size: 0.9rem !important;
+  }
+
+  .education-text p {
+    font-size: 0.75rem !important;
+  }
+
+  .diploma-logo {
+    height: 48px !important;
+  }
+
+  .education-card {
+    width: calc(90%) !important;
+    margin: 0 !important;
+    padding: 0.5rem 0.5rem !important;
+  }
+
+  .certification-card {
+    width: calc(80%) !important;
+    margin: 0 !important;
+  }
+}
+
 @media (max-width: 1500px) {
   .projects-container {
     grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 1600px) {
+  .projects-container {
+    margin: 0 0 0 0 !important;
+    gap: 2rem !important;
+  }
+  .project-card {
+    max-width: 800px !important;
+    margin: 0 auto;
   }
 }

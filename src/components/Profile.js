@@ -7,16 +7,20 @@ export default function Profile() {
   return (
     <div className="profile-container">
       <div className="profile-card">
-        <a
-          href="https://github.com/Calculator5329"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="profile-img-link"
-        >
-          <div className="profile-img-wrapper">
-            <img src="/profile.png" alt="Profile" className="profile-img" />
-          </div>
-        </a>
+        <div className="profile-img-wrapper">
+          <a
+            href="https://github.com/Calculator5329"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="profile-img-link"
+          >
+            <img
+              src={`${process.env.PUBLIC_URL}/profile.png`}
+              alt="Profile"
+              className="profile-img"
+            />
+          </a>
+        </div>
 
         <h1 className="profile-name">Ethan</h1>
 
@@ -35,38 +39,67 @@ export default function Profile() {
           Download Resume
         </a>
       </div>
+
       <div className="profile-card">
         <ProfileLinks />
       </div>
+
       <div className="profile-card" style={{ paddingTop: "0.5rem" }}>
         <TechStack
           title="Languages"
           stack={[
-            { src: "/icon/Python.svg", name: "Python" },
-            { src: "/icon/Javascript.svg", name: "Javascript" },
-            { src: "/icon/MySQL.svg", name: "SQL" },
-            { src: "/icon/CSharp.svg", name: "C#" },
-            { src: "/icon/Java.svg", name: "Java" },
+            {
+              src: `${process.env.PUBLIC_URL}/icon/Python.svg`,
+              name: "Python",
+            },
+            {
+              src: `${process.env.PUBLIC_URL}/icon/Javascript.svg`,
+              name: "Javascript",
+            },
+            { src: `${process.env.PUBLIC_URL}/icon/MySQL.svg`, name: "SQL" },
+            { src: `${process.env.PUBLIC_URL}/icon/CSharp.svg`, name: "C#" },
+            { src: `${process.env.PUBLIC_URL}/icon/Java.svg`, name: "Java" },
           ]}
         />
         <TechStack
           title="Frameworks & Libraries"
           stack={[
-            { src: "/icon/React.svg", name: "React" },
-            { src: "/icon/FastAPI.svg", name: "FastAPI" },
-            { src: "/icon/Flask.svg", name: "Flask" },
-            { src: "/icon/Tensorflow.svg", name: "TensorFlow" },
-            { src: "/icon/Pandas.svg", name: "Pandas" },
+            { src: `${process.env.PUBLIC_URL}/icon/React.svg`, name: "React" },
+            {
+              src: `${process.env.PUBLIC_URL}/icon/FastAPI.svg`,
+              name: "FastAPI",
+            },
+            { src: `${process.env.PUBLIC_URL}/icon/Flask.svg`, name: "Flask" },
+            {
+              src: `${process.env.PUBLIC_URL}/icon/Tensorflow.svg`,
+              name: "TensorFlow",
+            },
+            {
+              src: `${process.env.PUBLIC_URL}/icon/Pandas.svg`,
+              name: "Pandas",
+            },
           ]}
         />
         <TechStack
           title="Infrastructure & Tools"
           stack={[
-            { src: "/icon/Google Cloud.svg", name: "Google Cloud" },
-            { src: "/icon/Azure.svg", name: "Azure" },
-            { src: "/icon/Docker.svg", name: "Docker" },
-            { src: "/icon/Raspberry Pi.svg", name: "Raspberry Pi" },
-            { src: "/icon/GitHub.svg", name: "GitHub" },
+            {
+              src: `${process.env.PUBLIC_URL}/icon/Google Cloud.svg`,
+              name: "Google Cloud",
+            },
+            { src: `${process.env.PUBLIC_URL}/icon/Azure.svg`, name: "Azure" },
+            {
+              src: `${process.env.PUBLIC_URL}/icon/Docker.svg`,
+              name: "Docker",
+            },
+            {
+              src: `${process.env.PUBLIC_URL}/icon/Raspberry Pi.svg`,
+              name: "Raspberry Pi",
+            },
+            {
+              src: `${process.env.PUBLIC_URL}/icon/GitHub.svg`,
+              name: "GitHub",
+            },
           ]}
         />
       </div>
