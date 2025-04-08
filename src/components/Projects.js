@@ -58,7 +58,7 @@ export default function Projects() {
             name: "OpenAI API",
           },
           {
-            src: `${process.env.PUBLIC_URL}/icon/TensorFlow.svg`,
+            src: `${process.env.PUBLIC_URL}/icon/Tensorflow.svg`,
             name: "Tensorflow",
           },
         ]}
@@ -121,7 +121,7 @@ export default function Projects() {
         link="https://github.com/Calculator5329/portfolio"
         techIcons={[
           {
-            src: `${process.env.PUBLIC_URL}/icon/JavaScript.svg`,
+            src: `${process.env.PUBLIC_URL}/icon/Javascript.svg`,
             name: "JavaScript",
           },
           {

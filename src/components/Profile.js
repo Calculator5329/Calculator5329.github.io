@@ -97,7 +97,7 @@ export default function Profile() {
               name: "Raspberry Pi",
             },
             {
-              src: `${process.env.PUBLIC_URL}/icon/GitHub.svg`,
+              src: `${process.env.PUBLIC_URL}/icon/Github.svg`,
               name: "GitHub",
             },
           ]}
