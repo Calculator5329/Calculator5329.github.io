@@ -115,6 +115,31 @@ export default function Projects() {
       />
 
       <Project
+        title="Mental Math Site"
+        image={`${process.env.PUBLIC_URL}/llm_project.png`}
+        description="This project is a web app that builds mental math skills through fast-paced games and provides leaderboards and player trophies. It uses React, FastAPI, PostgreSQL, and Firebase Auth for secure login."
+        link=""
+        techIcons={[
+          {
+            src: `${process.env.PUBLIC_URL}/icon/FastAPI.svg`,
+            name: "FastAPI",
+          },
+          {
+            src: `${process.env.PUBLIC_URL}/icon/React.svg`,
+            name: "React",
+          },
+          {
+            src: `${process.env.PUBLIC_URL}/icon/SQL.svg`,
+            name: "SQL",
+          },
+          {
+            src: `${process.env.PUBLIC_URL}/icon/Cloudflare.svg`,
+            name: "Cloudflare",
+          },
+        ]}
+      />
+
+      <Project
         title="This Website!"
         image={`${process.env.PUBLIC_URL}/portfolio-site.png`}
         description="This is my personal website for hosting my projects and resume. Built with React and hosted on GitHub Pages."
@@ -135,31 +160,6 @@ export default function Projects() {
           {
             src: `${process.env.PUBLIC_URL}/icon/Github.svg`,
             name: "GitHub",
-          },
-        ]}
-      />
-
-      <Project
-        title="LLM Project - In Progress"
-        image={`${process.env.PUBLIC_URL}/llm_project.png`}
-        description="An ongoing project exploring contrasting viewpoints through fine-tuned LLMs. Built using Hugging Face tools and OpenAI APIs."
-        link=""
-        techIcons={[
-          {
-            src: `${process.env.PUBLIC_URL}/icon/hf.svg`,
-            name: "Hugging Face",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/OpenAI.svg`,
-            name: "OpenAI API",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Python.svg`,
-            name: "Pythont",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Kaggle.svg`,
-            name: "Kaggle",
           },
         ]}
       />
