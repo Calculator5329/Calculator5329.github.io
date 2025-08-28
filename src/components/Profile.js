@@ -25,8 +25,8 @@ export default function Profile() {
         <h1 className="profile-name">Ethan</h1>
 
         <p className="profile-bio">
-          CS graduate starting an AI/ML Master's in April. Skilled in Python,
-          Java, C#, SQL & JavaScript. Curious learner into AI, economics,
+          AI/ML Master's Student at WGU. Skilled in JavaScript, Python,
+          Java, C#, & SQL. Curious learner into AI, economics,
           finance & philosophy.
         </p>
 
