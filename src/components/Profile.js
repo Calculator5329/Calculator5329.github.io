@@ -25,9 +25,8 @@ export default function Profile() {
         <h1 className="profile-name">Ethan</h1>
 
         <p className="profile-bio">
-          AI/ML Master's Student at WGU. Skilled in JavaScript, Python,
-          Java, C#, & SQL. Curious learner into AI, economics,
-          finance & philosophy.
+          AI/ML Master's Student at WGU. Software Engineer at Dovaxis.
+          Curious learner into AI, economics, finance, & philosophy.
         </p>
 
         <a
@@ -48,58 +47,31 @@ export default function Profile() {
         <TechStack
           title="Languages"
           stack={[
-            {
-              src: `${process.env.PUBLIC_URL}/icon/Python.svg`,
-              name: "Python",
-            },
-            {
-              src: `${process.env.PUBLIC_URL}/icon/Javascript.svg`,
-              name: "Javascript",
-            },
+            { src: `${process.env.PUBLIC_URL}/icon/Python.svg`, name: "Python" },
+            { src: `${process.env.PUBLIC_URL}/icon/TypeScript.svg`, name: "TypeScript" },
+            { src: `${process.env.PUBLIC_URL}/icon/JavaScript.svg`, name: "JavaScript" },
             { src: `${process.env.PUBLIC_URL}/icon/MySQL.svg`, name: "SQL" },
             { src: `${process.env.PUBLIC_URL}/icon/CSharp.svg`, name: "C#" },
-            { src: `${process.env.PUBLIC_URL}/icon/Java.svg`, name: "Java" },
           ]}
         />
         <TechStack
           title="Frameworks & Libraries"
           stack={[
             { src: `${process.env.PUBLIC_URL}/icon/React.svg`, name: "React" },
-            {
-              src: `${process.env.PUBLIC_URL}/icon/FastAPI.svg`,
-              name: "FastAPI",
-            },
-            { src: `${process.env.PUBLIC_URL}/icon/Flask.svg`, name: "Flask" },
-            {
-              src: `${process.env.PUBLIC_URL}/icon/Tensorflow.svg`,
-              name: "TensorFlow",
-            },
-            {
-              src: `${process.env.PUBLIC_URL}/icon/Pandas.svg`,
-              name: "Pandas",
-            },
+            { src: `${process.env.PUBLIC_URL}/icon/FastAPI.svg`, name: "FastAPI" },
+            { src: `${process.env.PUBLIC_URL}/icon/Tailwind.svg`, name: "Tailwind CSS" },
+            { src: `${process.env.PUBLIC_URL}/icon/TensorFlow.svg`, name: "TensorFlow" },
+            { src: `${process.env.PUBLIC_URL}/icon/Pandas.svg`, name: "Pandas" },
           ]}
         />
         <TechStack
           title="Infrastructure & Tools"
           stack={[
-            {
-              src: `${process.env.PUBLIC_URL}/icon/Google Cloud.svg`,
-              name: "Google Cloud",
-            },
-            { src: `${process.env.PUBLIC_URL}/icon/Azure.svg`, name: "Azure" },
-            {
-              src: `${process.env.PUBLIC_URL}/icon/Docker.svg`,
-              name: "Docker",
-            },
-            {
-              src: `${process.env.PUBLIC_URL}/icon/Raspberry Pi.svg`,
-              name: "Raspberry Pi",
-            },
-            {
-              src: `${process.env.PUBLIC_URL}/icon/Github.svg`,
-              name: "GitHub",
-            },
+            { src: `${process.env.PUBLIC_URL}/icon/Firebase.svg`, name: "Firebase" },
+            { src: `${process.env.PUBLIC_URL}/icon/PostgreSQL.svg`, name: "PostgreSQL" },
+            { src: `${process.env.PUBLIC_URL}/icon/Vite.js.svg`, name: "Vite" },
+            { src: `${process.env.PUBLIC_URL}/icon/Docker.svg`, name: "Docker" },
+            { src: `${process.env.PUBLIC_URL}/icon/GitHub.svg`, name: "GitHub" },
           ]}
         />
       </div>

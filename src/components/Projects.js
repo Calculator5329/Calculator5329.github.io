@@ -2,166 +2,85 @@ import React from "react";
 import "../styles/Profile.css";
 import Project from "./Project";
 
+const icon = (name, file) => ({
+  src: `${process.env.PUBLIC_URL}/icon/${file || name + ".svg"}`,
+  name,
+});
+
 export default function Projects() {
   return (
     <div className="projects-container">
-      {/* Code for "Projects" title: <p className="projects-title">My Projects</p>*/}
       <Project
-        title="ArXiv Dashboard"
-        image="https://i.imgur.com/6MH80qX.jpeg"
-        description="NLP-powered research dashboard using RAG (FAISS + Gemini), GPT summaries, and per-paper chatbots. Deployed on a Raspberry Pi with Cloudflare tunnel."
-        link="https://calculator5329.github.io/ai-papers/"
+        title="Agent-v2"
+        image={`${process.env.PUBLIC_URL}/agent-v2.png`}
+        description="Provider-agnostic LLM agentic engine supporting OpenAI, Anthropic, and Gemini. Runs multi-step tool loops, streams results via SSE, and enforces schema-validated tools — built for long-horizon tasks like reading files, editing code, and spawning dev servers."
+        link="https://github.com/Calculator5329/agent-v2"
         techIcons={[
-          {
-            src: `${process.env.PUBLIC_URL}/icon/React.svg`,
-            name: "React",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Python.svg`,
-            name: "Python",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Gemini.svg`,
-            name: "Gemini",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Raspberry Pi.svg`,
-            name: "Raspberry Pi",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Cloudflare.svg`,
-            name: "Cloudflare",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/SQLite.svg`,
-            name: "SQLite",
-          },
+          icon("TypeScript", "TypeScript.svg"),
+          icon("React", "React.svg"),
+          icon("OpenAI API", "OpenAI.svg"),
+          icon("Anthropic", "Anthropic.svg"),
+          icon("Gemini", "Gemini.svg"),
+          icon("Vite", "Vite.js.svg"),
         ]}
       />
 
       <Project
-        title="News Bias Analyzer"
-        image="https://i.imgur.com/fAGOD5x.jpeg"
-        description="AI-powered app classifying news by political bias and authenticity using ML and OpenAI embeddings. Built with FastAPI + React and deployed to Vercel."
-        link="https://capstone-frontend-1-beige.vercel.app/"
+        title="Circuit Builder"
+        image={`${process.env.PUBLIC_URL}/circuit-builder.png`}
+        description="Visual digital logic circuit designer and simulator with a node-based drag-and-drop canvas, real-time gate simulation, and a step-by-step tutorial mode covering half adders, full adders, and more."
+        link="https://circuit-builder-d5ea8.web.app"
         techIcons={[
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Next.js.svg`,
-            name: "Next.js",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/FastAPI.svg`,
-            name: "FastAPI",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/OpenAI.svg`,
-            name: "OpenAI API",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Tensorflow.svg`,
-            name: "Tensorflow",
-          },
-        ]}
-      />
-
-      <Project
-        title="Book Recommendation Website"
-        image="https://i.imgur.com/TuwX6q3.jpeg"
-        description="Uses OpenAI embeddings + FAISS to build a vector search recommendation system for books. Runs on Google Cloud with a real-time API backend."
-        link="https://calculator5329.github.io/book-reccomendations-r/"
-        techIcons={[
-          {
-            src: `${process.env.PUBLIC_URL}/icon/React.svg`,
-            name: "React",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Flask.svg`,
-            name: "Flask",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/OpenAI.svg`,
-            name: "OpenAI API",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Google Cloud.svg`,
-            name: "Google Cloud",
-          },
-        ]}
-      />
-
-      <Project
-        title="Stock Portfolio Analyzer"
-        image="https://i.imgur.com/b455H8s.png"
-        description="Full-stack portfolio backtesting app with Pandas/NumPy + FastAPI backend (on Azure) and Next.js frontend (on Netlify)."
-        link="https://cheery-tiramisu-028ceb.netlify.app/"
-        techIcons={[
-          {
-            src: `${process.env.PUBLIC_URL}/icon/TypeScript.svg`,
-            name: "TypeScript",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Pandas.svg`,
-            name: "Pandas",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Docker.svg`,
-            name: "Docker",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Azure.svg`,
-            name: "Azure",
-          },
+          icon("TypeScript", "TypeScript.svg"),
+          icon("React", "React.svg"),
+          icon("Tailwind CSS", "Tailwind.svg"),
+          icon("Firebase", "Firebase.svg"),
         ]}
       />
 
       <Project
         title="Mental Math Site"
-        image={`${process.env.PUBLIC_URL}/llm_project.png`}
-        description="This project is a web app that builds mental math skills through fast-paced games and provides leaderboards and player trophies. It uses React, FastAPI, PostgreSQL, and Firebase Auth for secure login."
-        link=""
+        image={`${process.env.PUBLIC_URL}/n2k-webapp.png`}
+        description="Fast-paced mental math web app with Board Slam and Written Problems game modes, global leaderboards, player profiles with medals, and 24+ avatars. Built with React, FastAPI, Firebase Auth, and PostgreSQL."
+        link="https://mentalmath.site"
         techIcons={[
-          {
-            src: `${process.env.PUBLIC_URL}/icon/FastAPI.svg`,
-            name: "FastAPI",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/React.svg`,
-            name: "React",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/SQL.svg`,
-            name: "SQL",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Cloudflare.svg`,
-            name: "Cloudflare",
-          },
+          icon("React", "React.svg"),
+          icon("FastAPI", "FastAPI.svg"),
+          icon("Firebase", "Firebase.svg"),
+          icon("PostgreSQL", "PostgreSQL.svg"),
+        ]}
+      />
+
+      <Project
+        title="Finance GUI"
+        image={`${process.env.PUBLIC_URL}/finance-gui.png`}
+        description="Node-based visual retirement planner with drag-and-drop income flow, tax-aware projections using 2024 federal brackets, savings overflow routing, and year-by-year compound growth charts."
+        link="https://finance-gui-d5ea8.web.app"
+        techIcons={[
+          icon("TypeScript", "TypeScript.svg"),
+          icon("React", "React.svg"),
+          icon("Tailwind CSS", "Tailwind.svg"),
+          icon("Firebase", "Firebase.svg"),
         ]}
       />
 
       <Project
         title="This Website!"
         image={`${process.env.PUBLIC_URL}/portfolio-site.png`}
-        description="This is my personal website for hosting my projects and resume. Built with React and hosted on GitHub Pages."
-        link="https://github.com/Calculator5329/portfolio"
+        description="My personal portfolio site for showcasing projects and resume. Built with React and hosted on GitHub Pages."
+        link="https://github.com/Calculator5329/Calculator5329.github.io"
         techIcons={[
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Javascript.svg`,
-            name: "JavaScript",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/CSS.svg`,
-            name: "CSS",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/React.svg`,
-            name: "React",
-          },
-          {
-            src: `${process.env.PUBLIC_URL}/icon/Github.svg`,
-            name: "GitHub",
-          },
+          icon("JavaScript", "JavaScript.svg"),
+          icon("CSS", "CSS.svg"),
+          icon("React", "React.svg"),
+          icon("GitHub", "GitHub.svg"),
         ]}
+      />
+
+      <Project
+        title="More Coming Soon"
+        description=""
+        placeholder={true}
       />
     </div>
   );

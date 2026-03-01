@@ -149,21 +149,20 @@
   margin: 0 0;
 }
 
-.certification-link:hover .certification-logo {
-  transform: scale(1.05);
-  cursor: pointer;
+.certification-link {
+  transition: opacity 0.2s ease;
 }
 
-.certification-link:hover .certification-content h3 {
-  font-size: 1.25rem;
-  margin-top: -0.125rem;
+.certification-link:hover {
+  opacity: 0.85;
 }
 
-.certification-link:hover .certification-content p {
-  font-size: 1.05rem;
+.certification-link:hover .certification-content {
+  transform: scale(1.02);
 }
-.certification-link:hover .certification-separator {
-  height: 3.25rem;
+
+.certification-content {
+  transition: transform 0.2s ease;
 }
 
 .education-logo,
