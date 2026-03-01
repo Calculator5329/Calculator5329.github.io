@@ -78,9 +78,18 @@ export default function Projects() {
       />
 
       <Project
-        title="More Coming Soon"
-        description=""
-        placeholder={true}
+        title="ArXiv Dashboard"
+        image="https://i.imgur.com/6MH80qX.jpeg"
+        description="NLP-powered research dashboard using RAG (FAISS + Gemini), GPT summaries, and per-paper chatbots. Deployed on a Raspberry Pi with Cloudflare tunnel."
+        link="https://github.com/Calculator5329/ai-papers"
+        techIcons={[
+          icon("React", "React.svg"),
+          icon("Python", "Python.svg"),
+          icon("Gemini", "Gemini.svg"),
+          icon("Raspberry Pi", "Raspberry Pi.svg"),
+          icon("Cloudflare", "Cloudflare.svg"),
+          icon("SQLite", "SQLite.svg"),
+        ]}
       />
     </div>
   );
