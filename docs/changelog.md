@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-06-07 — Lineup Curation: Featured 6
+
+### Added
+- **N2K Almanac** card — TypeScript solver (custom binary format + Web Worker) + React/MobX data-viz; links to live `n2k-almanac.web.app`
+- **Retirement Sim** card — historical retirement simulator; links to live `calculator5329.github.io/retirement-sim`
+- **Notdop Minigames** card — 12+ browser minigames with Firestore progression; links to live `notdop-minigames.web.app`
+- **GatesAI Chat** card — flagship local-first AI workspace (TypeScript, Tauri/Rust + Go bridge, OpenRouter/Ollama, local+API image gen); links to repo (placeholder image until a hero screenshot is added)
+
+### Removed
+- Circuit Builder, Finance GUI, ArXiv Dashboard, and "This Website!" cards (rotated out to curate to the strongest 6)
+
+### Updated
+- Final featured order: GatesAI Chat, Agent-v2, N2K Almanac, Retirement Sim, Mental Math Site, Notdop Minigames
+- Added SVG icons: `D3.svg`, `MobX.svg`
+- Added screenshots: `n2k-almanac.png`, `retirement-sim.png`, `notdop-minigames.png`, `gatesai-chat.png` (placeholder)
+- Note: `tax-explorer.png` and `D3.svg` are present but unused (Tax Explorer card was considered, then cut)
+
+---
+
 ## 2026-03-01 — Polish Pass: Placeholder, Cert Hover, Tech Stack
 
 ### Fixed

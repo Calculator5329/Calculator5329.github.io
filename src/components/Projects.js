@@ -11,6 +11,20 @@ export default function Projects() {
   return (
     <div className="projects-container">
       <Project
+        title="GatesAI Chat"
+        image={`${process.env.PUBLIC_URL}/gatesai-chat.png`}
+        description="Local-first AI chat workspace built in TypeScript as a Tauri (Rust) desktop app with a Go execution bridge. Multimodal and multi-model — routing through OpenRouter for cloud models or Ollama for fully-local inference — with local (ComfyUI) and API-based image generation, sandboxed file/command tools, and persistent memory."
+        link="https://github.com/Calculator5329/GatesAI-Chat"
+        techIcons={[
+          icon("TypeScript", "TypeScript.svg"),
+          icon("React", "React.svg"),
+          icon("OpenAI API", "OpenAI.svg"),
+          icon("Anthropic", "Anthropic.svg"),
+          icon("Gemini", "Gemini.svg"),
+        ]}
+      />
+
+      <Project
         title="Agent-v2"
         image={`${process.env.PUBLIC_URL}/agent-v2.png`}
         description="Provider-agnostic LLM agentic engine supporting OpenAI, Anthropic, and Gemini. Runs multi-step tool loops, streams results via SSE, and enforces schema-validated tools — built for long-horizon tasks like reading files, editing code, and spawning dev servers."
@@ -26,15 +40,29 @@ export default function Projects() {
       />
 
       <Project
-        title="Circuit Builder"
-        image={`${process.env.PUBLIC_URL}/circuit-builder.png`}
-        description="Visual digital logic circuit designer and simulator with a node-based drag-and-drop canvas, real-time gate simulation, and a step-by-step tutorial mode covering half adders, full adders, and more."
-        link="https://circuit-builder-d5ea8.web.app"
+        title="N2K Almanac"
+        image={`${process.env.PUBLIC_URL}/n2k-almanac.png`}
+        description="A mathematical almanac for the Number Knockout game. A TypeScript solver computes the easiest equation for every dice-and-target combination, stored in a custom compact binary format and served through a Web Worker for instant off-main-thread lookups. The React + MobX frontend browses 370K+ solutions with heatmaps, histograms, and 16 fully-themed 'editions.'"
+        link="https://n2k-almanac.web.app"
         techIcons={[
           icon("TypeScript", "TypeScript.svg"),
           icon("React", "React.svg"),
+          icon("MobX", "MobX.svg"),
           icon("Tailwind CSS", "Tailwind.svg"),
+          icon("Vite", "Vite.js.svg"),
+        ]}
+      />
+
+      <Project
+        title="Retirement Sim"
+        image={`${process.env.PUBLIC_URL}/retirement-sim.png`}
+        description="Historical retirement simulator that plays through 150+ years of real S&P, bond, and CPI data. Step through a single timeline month by month, or batch-test a withdrawal strategy across every historical start date to find your safe rate."
+        link="https://calculator5329.github.io/retirement-sim"
+        techIcons={[
+          icon("TypeScript", "TypeScript.svg"),
+          icon("React", "React.svg"),
           icon("Firebase", "Firebase.svg"),
+          icon("Vite", "Vite.js.svg"),
         ]}
       />
 
@@ -52,43 +80,14 @@ export default function Projects() {
       />
 
       <Project
-        title="Finance GUI"
-        image={`${process.env.PUBLIC_URL}/finance-gui.png`}
-        description="Node-based visual retirement planner with drag-and-drop income flow, tax-aware projections using 2024 federal brackets, savings overflow routing, and year-by-year compound growth charts."
-        link="https://finance-gui-d5ea8.web.app"
-        techIcons={[
-          icon("TypeScript", "TypeScript.svg"),
-          icon("React", "React.svg"),
-          icon("Tailwind CSS", "Tailwind.svg"),
-          icon("Firebase", "Firebase.svg"),
-        ]}
-      />
-
-      <Project
-        title="This Website!"
-        image={`${process.env.PUBLIC_URL}/portfolio-site.png`}
-        description="My personal portfolio site for showcasing projects and resume. Built with React and hosted on GitHub Pages."
-        link="https://github.com/Calculator5329/Calculator5329.github.io"
+        title="Notdop Minigames"
+        image={`${process.env.PUBLIC_URL}/notdop-minigames.png`}
+        description="An arcade of 12+ original browser minigames — shmups, physics puzzles, and reflex challenges — with a shared coin economy, unlockable themes, and Firestore-backed progression. Built in vanilla JavaScript for instant, install-free play."
+        link="https://notdop-minigames.web.app"
         techIcons={[
           icon("JavaScript", "JavaScript.svg"),
           icon("CSS", "CSS.svg"),
-          icon("React", "React.svg"),
-          icon("GitHub", "GitHub.svg"),
-        ]}
-      />
-
-      <Project
-        title="ArXiv Dashboard"
-        image="https://i.imgur.com/6MH80qX.jpeg"
-        description="NLP-powered research dashboard using RAG (FAISS + Gemini), GPT summaries, and per-paper chatbots. Deployed on a Raspberry Pi with Cloudflare tunnel."
-        link="https://github.com/Calculator5329/ai-papers"
-        techIcons={[
-          icon("React", "React.svg"),
-          icon("Python", "Python.svg"),
-          icon("Gemini", "Gemini.svg"),
-          icon("Raspberry Pi", "Raspberry Pi.svg"),
-          icon("Cloudflare", "Cloudflare.svg"),
-          icon("SQLite", "SQLite.svg"),
+          icon("Firebase", "Firebase.svg"),
         ]}
       />
     </div>
