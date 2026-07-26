@@ -1,26 +1,49 @@
 # Portfolio Site Roadmap
 
-## Current Projects on Display (curated best 6 — 2026-06-07)
-- [x] GatesAI Chat — local-first AI workspace (TypeScript, Tauri/Rust + Go bridge, OpenRouter/Ollama)
-- [x] Agent-v2 — multi-provider LLM agentic backend
-- [x] N2K Almanac — math solver (custom binary format + Web Worker) + React/MobX data-viz
-- [x] Retirement Sim — historical retirement simulator (needs polish)
-- [x] Mental Math Site (n2k-webapp) — fast-paced math minigames
-- [x] Notdop Minigames — 12+ browser minigames, Firestore progression
+This queue implements the parent
+[`career` portfolio direction](../../docs/roadmap.md#portfolio-wiring): keep
+the work to project wiring and real images, with no redesign or framework
+migration. The superseded pre-alignment queue is preserved in
+[`docs/archive/2026-07-26/roadmap-pre-career-alignment.md`](archive/2026-07-26/roadmap-pre-career-alignment.md).
 
-## Bench / rotation (strong, not currently featured)
-- [ ] History Explorer — geo/historical data app w/ custom backend SDK
-- [ ] CRS / Cloud Proxy — published npm SDK + Cloud Run backend (needs refactor first)
-- [ ] Design Forge / Economic Sim / Titan Explorer — polished, need deploy
-- [~] Tax Explorer — cut from lineup (weaker piece)
+## Current state
 
-## To do
-- [ ] Replace GatesAI Chat placeholder image with a real hero screenshot once finalized
-- [ ] Polish Retirement Sim before heavy promotion
-- [ ] Deploy: `npm run deploy` to publish the curated lineup
+The application currently renders these six cards in `src/components/Projects.js`:
 
-## Site Improvements
-- [ ] Add filter/tag system for projects (Full-Stack, AI/ML, Games)
-- [ ] Add a blog or writing section
-- [ ] Add animations/transitions between sections
-- [ ] Mobile responsive improvements
+1. GatesAI Chat
+2. Agent-v2
+3. N2K Almanac
+4. Retirement Sim
+5. Mental Math Site
+6. Notdop Minigames
+
+This is implementation evidence, not the target career lineup. The parent
+career repository now names GatesAI Chat, Agent Orchestrator, Fathom, N2K
+Almanac, Bit Maze, and Neon Vector Defense as the flagship set. Its profile
+README already contains evidence-backed summaries and links for those projects.
+
+## Now
+
+- [ ] Add Fathom, Bit Maze, and Neon Vector Defense cards using real product
+      images plus their verified source/live links from the parent career
+      repository.
+- [ ] Replace `public/gatesai-chat.png`, which is a title treatment rather than
+      a product capture, with a real GatesAI Chat screenshot.
+- [ ] Update the N2K Almanac card to use the parent career repository's
+      canonical `n2k-almanac-v3.web.app` live URL.
+
+## After Agent Orchestrator publication
+
+- [ ] Add the Agent Orchestrator card only after its repository publication and
+      privacy/history gates are complete.
+- [ ] Reconcile the final six-card order against the parent flagship list,
+      removing superseded cards only as part of that reviewed replacement.
+
+## Verification and owner boundary
+
+- [ ] After portfolio wiring changes, run `npm run build` and verify the
+      recruiter path and responsive card layout in a browser.
+
+Deployment is deliberately separate from verification. `npm run deploy`
+publishes the GitHub Pages site and remains an owner-only action after review;
+agents must not choose or perform publication.

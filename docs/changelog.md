@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-07-26 — Documentation aligned with career priorities
+
+### Updated
+
+- Replaced the scaffold placeholder in `CLAUDE.md` with the site's
+  evidence-grounded career mission and corrected verification to the
+  non-deploy `npm run build` script.
+- Expanded the README with purpose, source-of-truth links, local verification,
+  and the publication boundary.
+- Reconciled the roadmap with the parent career flagship lineup and removed
+  unrelated redesign ideas from the active queue.
+
+### Archived
+
+- Preserved the complete superseded June lineup/bench/site-improvement queue
+  under `docs/archive/2026-07-26/` with a pointer from the current roadmap.
+
+---
+
 ## 2026-06-07 — Lineup Curation: Featured 6
 
 ### Added
