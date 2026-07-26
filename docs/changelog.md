@@ -4,6 +4,8 @@
 
 ### Updated
 
+- Added the standard `.orc/` ignore entry so local coordination state does not
+  appear as portfolio source material.
 - Replaced the scaffold placeholder in `CLAUDE.md` with the site's
   evidence-grounded career mission and corrected verification to the
   non-deploy `npm run build` script.
