@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-08-29 — Flagship lineup wire-in (Ethan-instructed, no redesign)
+
+### Updated
+
+- Replaced the project card lineup with the current flagship five plus the
+  site card: GatesAI Chat (repo), Fathom (live), N2K Almanac (live v3 URL),
+  Neon Vector Defense (recruiter demo mode), Skyline Courier (live), This
+  Website!. Removed Agent-v2, Retirement Sim, Mental Math Site (dead domain),
+  and Notdop Minigames cards.
+- Sourced real screenshots from each project repo into `public/` at card
+  sizing (1280px wide): `gatesai-chat.png`, `fathom.png`, `n2k-almanac.png`,
+  `neon-vector-defense.png`, `skyline-courier.png`.
+- Resume button now points at self-hosted `/EG_Resume.pdf` (placeholder copy
+  of the 2026-07 AI-Native resume; to be swapped before deploy) instead of the
+  archive.org URL.
+- Added M.S. Computer Science (AI/ML), Western Governors University, expected
+  Feb 2027 above the existing B.S. entry; certifications unchanged.
+
 ## 2026-07-26 — Documentation aligned with career priorities
 
 ### Updated

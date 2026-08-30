@@ -30,7 +30,7 @@ export default function Profile() {
         </p>
 
         <a
-          href="https://ia601207.us.archive.org/35/items/eg-resume-3-30/EG_Resume_3_30.pdf"
+          href={`${process.env.PUBLIC_URL}/EG_Resume.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           className="resume-link"

@@ -13,7 +13,7 @@ export default function Projects() {
       <Project
         title="GatesAI Chat"
         image={`${process.env.PUBLIC_URL}/gatesai-chat.png`}
-        description="Local-first AI chat workspace built in TypeScript as a Tauri (Rust) desktop app with a Go execution bridge. Multimodal and multi-model — routing through OpenRouter for cloud models or Ollama for fully-local inference — with local (ComfyUI) and API-based image generation, sandboxed file/command tools, and persistent memory."
+        description="Local-first AI chat desktop app built with React and Rust (Tauri), with a Go sidecar for sandboxed tool execution. Multi-model routing through OpenRouter or fully-local Ollama, agent tasks, persistent memory, 1,100+ automated tests, CI, and installers for Windows, macOS, and Linux. A browser Web Lite demo runs from the repo's GitHub Pages."
         link="https://github.com/Calculator5329/GatesAI-Chat"
         techIcons={[
           icon("TypeScript", "TypeScript.svg"),
@@ -25,16 +25,15 @@ export default function Projects() {
       />
 
       <Project
-        title="Agent-v2"
-        image={`${process.env.PUBLIC_URL}/agent-v2.png`}
-        description="Provider-agnostic LLM agentic engine supporting OpenAI, Anthropic, and Gemini. Runs multi-step tool loops, streams results via SSE, and enforces schema-validated tools — built for long-horizon tasks like reading files, editing code, and spawning dev servers."
-        link="https://github.com/Calculator5329/agent-v2"
+        title="Fathom"
+        image={`${process.env.PUBLIC_URL}/fathom.png`}
+        description="Market-analysis suite: portfolio backtesting, asset-class allocation over 150+ years of market history, and Monte Carlo retirement simulation validated against the Trinity study. Every analysis is a shareable URL. React and TypeScript with a custom backtest engine, ECharts visualizations, and Web Worker simulation."
+        link="https://ethan-488900.web.app"
         techIcons={[
           icon("TypeScript", "TypeScript.svg"),
           icon("React", "React.svg"),
-          icon("OpenAI API", "OpenAI.svg"),
-          icon("Anthropic", "Anthropic.svg"),
-          icon("Gemini", "Gemini.svg"),
+          icon("Tailwind CSS", "Tailwind.svg"),
+          icon("Firebase", "Firebase.svg"),
           icon("Vite", "Vite.js.svg"),
         ]}
       />
@@ -42,8 +41,8 @@ export default function Projects() {
       <Project
         title="N2K Almanac"
         image={`${process.env.PUBLIC_URL}/n2k-almanac.png`}
-        description="A mathematical almanac for the Number Knockout game. A TypeScript solver computes the easiest equation for every dice-and-target combination, stored in a custom compact binary format and served through a Web Worker for instant off-main-thread lookups. The React + MobX frontend browses 370K+ solutions with heatmaps, histograms, and 16 fully-themed 'editions.'"
-        link="https://n2k-almanac.web.app"
+        description="Equation almanac for the N2K dice-and-target game. A TypeScript solver precomputes the easiest equation for 184K+ dice-and-target combinations, stored in a custom compact binary format and served through a Web Worker for off-main-thread lookups. React + MobX frontend with heatmaps, histograms, competitions, bot matches, and themed editions."
+        link="https://n2k-almanac-v3.web.app"
         techIcons={[
           icon("TypeScript", "TypeScript.svg"),
           icon("React", "React.svg"),
@@ -54,10 +53,10 @@ export default function Projects() {
       />
 
       <Project
-        title="Retirement Sim"
-        image={`${process.env.PUBLIC_URL}/retirement-sim.png`}
-        description="Historical retirement simulator that plays through 150+ years of real S&P, bond, and CPI data. Step through a single timeline month by month, or batch-test a withdrawal strategy across every historical start date to find your safe rate."
-        link="https://calculator5329.github.io/retirement-sim"
+        title="Neon Vector Defense"
+        image={`${process.env.PUBLIC_URL}/neon-vector-defense.png`}
+        description="Sci-fi tower defense with a deterministic simulation core: a full replay system, headless balance simulations, and bot playtests validate balance changes. Procedural canvas rendering, procedural audio, and Firebase-backed leaderboards. The link opens a recruiter demo mode."
+        link="https://neon-vector-defense-7.web.app/?demo=1"
         techIcons={[
           icon("TypeScript", "TypeScript.svg"),
           icon("React", "React.svg"),
@@ -67,27 +66,27 @@ export default function Projects() {
       />
 
       <Project
-        title="Mental Math Site"
-        image={`${process.env.PUBLIC_URL}/n2k-webapp.png`}
-        description="Fast-paced mental math web app with Board Slam and Written Problems game modes, global leaderboards, player profiles with medals, and 24+ avatars. Built with React, FastAPI, Firebase Auth, and PostgreSQL."
-        link="https://mentalmath.site"
+        title="Skyline Courier"
+        image={`${process.env.PUBLIC_URL}/skyline-courier.png`}
+        description="First-person momentum parkour game built with Three.js: run, wall-run, dash, slide, and grapple across two themed courses in the browser. Custom physics and movement code with playable web deployment on Firebase Hosting."
+        link="https://skyline-courier-5329.web.app"
         techIcons={[
-          icon("React", "React.svg"),
-          icon("FastAPI", "FastAPI.svg"),
+          icon("JavaScript", "JavaScript.svg"),
           icon("Firebase", "Firebase.svg"),
-          icon("PostgreSQL", "PostgreSQL.svg"),
+          icon("Vite", "Vite.js.svg"),
         ]}
       />
 
       <Project
-        title="Notdop Minigames"
-        image={`${process.env.PUBLIC_URL}/notdop-minigames.png`}
-        description="An arcade of 12+ original browser minigames — shmups, physics puzzles, and reflex challenges — with a shared coin economy, unlockable themes, and Firestore-backed progression. Built in vanilla JavaScript for instant, install-free play."
-        link="https://notdop-minigames.web.app"
+        title="This Website!"
+        image={`${process.env.PUBLIC_URL}/portfolio-site.png`}
+        description="This portfolio site: a React single-page app deployed to GitHub Pages, presenting projects, technical stack, education, and resume."
+        link="https://github.com/Calculator5329/Calculator5329.github.io"
         techIcons={[
           icon("JavaScript", "JavaScript.svg"),
+          icon("React", "React.svg"),
           icon("CSS", "CSS.svg"),
-          icon("Firebase", "Firebase.svg"),
+          icon("GitHub", "GitHub.svg"),
         ]}
       />
     </div>

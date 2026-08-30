@@ -23,6 +23,12 @@ export default function Education({ title, stack }) {
           <div className="education-content">
             <div className="education-separator"></div>
             <div className="education-text">
+              <h3>M.S. Computer Science (AI/ML)</h3>
+              <p>Western Governors University</p>
+              <p>Expected Feb 2027</p>
+            </div>
+            <div className="education-separator"></div>
+            <div className="education-text">
               <h3>Bachelors Degree in Computer Science</h3>
               <p>Western Governors University</p>
               <p>2023-2025</p>
