@@ -66,12 +66,13 @@ export default function Projects() {
       />
 
       <Project
-        title="Skyline Courier"
-        image={`${process.env.PUBLIC_URL}/skyline-courier.png`}
-        description="First-person momentum parkour game built with Three.js: run, wall-run, dash, slide, and grapple across two themed courses in the browser. Custom physics and movement code with playable web deployment on Firebase Hosting."
-        link="https://skyline-courier-5329.web.app"
+        title="Political Compass 2026"
+        image={`${process.env.PUBLIC_URL}/political-compass.png`}
+        description="A political compass test built for the 2026 US landscape, rendered as an ink-on-paper manuscript. 42 public figures are charted from cited evidence dossiers assembled by parallel AI research agents, with hand-drawn faction territories, an economic-by-social split view, and a Firestore leaderboard."
+        link="https://political-test-2026.web.app"
         techIcons={[
-          icon("JavaScript", "JavaScript.svg"),
+          icon("TypeScript", "TypeScript.svg"),
+          icon("React", "React.svg"),
           icon("Firebase", "Firebase.svg"),
           icon("Vite", "Vite.js.svg"),
         ]}

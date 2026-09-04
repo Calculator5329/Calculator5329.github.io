@@ -35,7 +35,7 @@ The application currently renders these six cards in `src/components/Projects.js
 
 - [ ] <!-- workspace:id=work:4f61cfd7-1a08-5ea2-9315-226299b8f991 --> Add the Agent Orchestrator card only after its repository publication and
       privacy/history gates are complete.
-- [ ] <!-- workspace:id=work:38239691-59d9-57c5-be48-1ad9f94f4c6d --> Reconcile the final six-card order against the parent flagship list,
+- [ ] <!-- workspace:id=work:38239691-59d9-57c5-be48-1ad9f94f4c6d --> (2026-09-03: Skyline Courier removed and Political Compass 2026 added on Ethan's call; order still to reconcile.) Reconcile the final six-card order against the parent flagship list,
       removing superseded cards only as part of that reviewed replacement.
 
 ## Verification and owner boundary

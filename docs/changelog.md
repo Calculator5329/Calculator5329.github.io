@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-03 — Skyline Courier out, Political Compass 2026 in, real tab title
+
+- Removed the Skyline Courier card (Ethan: not polished enough to show) and
+  its screenshot.
+- Added a Political Compass 2026 card linking the live site, with a fresh
+  1440x900 capture of political-test-2026.web.app taken 2026-09-03.
+- Browser tab title changed from the create-react-app default "My Portfolio"
+  to "Ethan Gates".
+- `npm run build` passed. Deploy remains Ethan's (`npm run deploy`).
+
+
 ## 2026-08-29 — Flagship lineup wire-in (Ethan-instructed, no redesign)
 
 ### Updated
