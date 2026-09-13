@@ -18,7 +18,7 @@ export default function ProfileLinks() {
       />
       <InfoRow
         label="Organization:"
-        value="Student @ WGU"
+        value="Dovaxis"
         icon={<OrganizationIcon size={16} />}
       />
       <InfoRow

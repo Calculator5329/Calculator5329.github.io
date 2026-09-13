@@ -25,7 +25,7 @@ export default function Profile() {
         <h1 className="profile-name">Ethan</h1>
 
         <p className="profile-bio">
-          AI/ML Master's Student at WGU. Software Engineer at Dovaxis.
+          Software Engineer at Dovaxis. B.S. Computer Science, WGU.
           Curious learner into AI, economics, finance, & philosophy.
         </p>
 
