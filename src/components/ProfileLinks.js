@@ -4,7 +4,6 @@ import {
   OrganizationIcon,
   MarkGithubIcon,
   LinkIcon,
-  GlobeIcon,
   MailIcon,
 } from "@primer/octicons-react";
 
@@ -46,19 +45,6 @@ export default function ProfileLinks() {
           </a>
         }
         icon={<LinkIcon size={16} />}
-      />
-      <InfoRow
-        label="Blog:"
-        value={
-          <a
-            href="https://calculator5329.github.io/blog/projects"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            calculator5329.github.io/blog
-          </a>
-        }
-        icon={<GlobeIcon size={16} />}
       />
       <InfoRow
         label="Email:"

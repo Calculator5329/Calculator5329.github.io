@@ -79,6 +79,19 @@ export default function Projects() {
       />
 
       <Project
+        title="Agent Handles"
+        image={`${process.env.PUBLIC_URL}/agent-handles.png`}
+        description="Makes a web app's interface addressable by AI agents. A Vite plugin verifies a stable identity on every interactive element, a generated registry maps each one to its source line, journeys are tests written as data and compiled to Playwright, and a drive API lets an agent operate the running app and get a receipt for every action. The site shows a real app being driven end to end."
+        link="https://agent-handles.web.app"
+        techIcons={[
+          icon("TypeScript", "TypeScript.svg"),
+          icon("Vite", "Vite.js.svg"),
+          icon("React", "React.svg"),
+          icon("Firebase", "Firebase.svg"),
+        ]}
+      />
+
+      <Project
         title="This Website!"
         image={`${process.env.PUBLIC_URL}/portfolio-site.png`}
         description="This portfolio site: a React single-page app deployed to GitHub Pages, presenting projects, technical stack, education, and resume."
