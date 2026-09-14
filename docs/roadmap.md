@@ -30,8 +30,8 @@ The application currently renders these six cards in `src/components/Projects.js
       replaced with docs/screens/desktop-mocked/03-chat-tool-activity.png.)
 - [x] <!-- workspace:id=work:11d98755-0ccd-52a6-86d7-7c31cda31805 --> Update the N2K Almanac card to use the parent career repository's
       canonical `n2k-almanac-v3.web.app` live URL. (2026-08-29: done.)
-- [ ] **Card descriptions clip their last line** on the live site: the GatesAI Chat and N2K Almanac cards cut the final line of `p.project-description` to the top 10px of the glyphs at the card's bottom edge (2026-09-13 site sweep, 1280×900). Let the card grow or reserve the line height instead of clipping.
-- [ ] **Tech icon tooltips are invisible on phones**: at 390×844 the tooltip on the top-left icon of every card renders above the card and is erased by the card's `overflow: hidden`. Flip the tooltip below the icon when there is no room above, or drop `overflow: hidden` from the card.
+- [ ] <!-- workspace:id=work:3963fc65-958a-5a29-b7ed-6354b7e84d33 --> **Card descriptions clip their last line** on the live site: the GatesAI Chat and N2K Almanac cards cut the final line of `p.project-description` to the top 10px of the glyphs at the card's bottom edge (2026-09-13 site sweep, 1280×900). Let the card grow or reserve the line height instead of clipping.
+- [ ] <!-- workspace:id=work:4302ed8e-37c3-5215-8ee2-6d713153e03a --> **Tech icon tooltips are invisible on phones**: at 390×844 the tooltip on the top-left icon of every card renders above the card and is erased by the card's `overflow: hidden`. Flip the tooltip below the icon when there is no room above, or drop `overflow: hidden` from the card.
 
 ## After Agent Orchestrator publication
 
