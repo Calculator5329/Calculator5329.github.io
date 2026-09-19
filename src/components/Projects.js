@@ -13,8 +13,8 @@ export default function Projects() {
       <Project
         title="GatesAI Chat"
         image={`${process.env.PUBLIC_URL}/gatesai-chat.png`}
-        description="Local-first AI chat desktop app built with React and Rust (Tauri), with a Go sidecar for sandboxed tool execution. Multi-model routing through OpenRouter or fully-local Ollama, agent tasks, persistent memory, 1,100+ automated tests, CI, and installers for Windows, macOS, and Linux. A browser Web Lite demo runs from the repo's GitHub Pages."
-        link="https://github.com/Calculator5329/GatesAI-Chat"
+        description="Local-first AI chat desktop app built with React and Rust (Tauri), with a Go sidecar for sandboxed tool execution. Multi-model routing through OpenRouter or fully-local Ollama, agent tasks, persistent memory, 1,100+ automated tests, CI, and installers for Windows, macOS, and Linux. A browser demo runs at gatesai.site."
+        link="https://gatesai.site/"
         techIcons={[
           icon("TypeScript", "TypeScript.svg"),
           icon("React", "React.svg"),
@@ -88,6 +88,32 @@ export default function Projects() {
           icon("Vite", "Vite.js.svg"),
           icon("React", "React.svg"),
           icon("Firebase", "Firebase.svg"),
+        ]}
+      />
+
+      <Project
+        title="Media Vault"
+        image={`${process.env.PUBLIC_URL}/media-vault.png`}
+        description="A private photo and video library that runs on your own computer: timeline, people, places, trips and search, with optional local AI for faces, text in photos, image search by description and video transcripts. One command sets it up, originals are never touched, and nothing leaves the machine."
+        link="https://github.com/Calculator5329/media-vault-oss"
+        techIcons={[
+          icon("Python", "Python.svg"),
+          icon("SQLite", "SQLite.svg"),
+          icon("Hugging Face", "hf.svg"),
+          icon("GitHub", "GitHub.svg"),
+        ]}
+      />
+
+      <Project
+        title="Milo"
+        image={`${process.env.PUBLIC_URL}/milo.png`}
+        description="A local voice companion: whisper.cpp, Ollama and Pocket TTS in one Python process, interruptible mid-sentence, with first audio about 300 ms after you stop talking. An animated SVG robot whose mouth follows real playback amplitude. A coding agent sets it up from the repo's CLAUDE.md."
+        link="https://github.com/Calculator5329/milo"
+        techIcons={[
+          icon("Python", "Python.svg"),
+          icon("Hugging Face", "hf.svg"),
+          icon("JavaScript", "JavaScript.svg"),
+          icon("GitHub", "GitHub.svg"),
         ]}
       />
 
