@@ -14,7 +14,7 @@ export default function Projects() {
         title="GatesAI Chat"
         image={`${process.env.PUBLIC_URL}/gatesai-chat.png`}
         description="Local-first AI chat desktop app built with React and Rust (Tauri), with a Go sidecar for sandboxed tool execution. Multi-model routing through OpenRouter or fully-local Ollama, agent tasks, persistent memory, 1,100+ automated tests, CI, and installers for Windows, macOS, and Linux. A browser demo runs at gatesai.site."
-        link="https://gatesai.site/"
+        link="https://gatesai.web.app/"
         techIcons={[
           icon("TypeScript", "TypeScript.svg"),
           icon("React", "React.svg"),
@@ -41,7 +41,7 @@ export default function Projects() {
       <Project
         title="N2K Almanac"
         image={`${process.env.PUBLIC_URL}/n2k-almanac.png`}
-        description="Equation almanac for the N2K dice-and-target game. A TypeScript solver precomputes the easiest equation for 184K+ dice-and-target combinations, stored in a custom compact binary format and served through a Web Worker for off-main-thread lookups. React + MobX frontend with heatmaps, histograms, competitions, bot matches, and themed editions."
+        description="Equation almanac for the N2K dice-and-target game. A TypeScript solver precomputes the easiest equation for 184K+ solvable dice-and-target combinations, stored in a custom compact binary format and served through a Web Worker for off-main-thread lookups. React + MobX frontend with heatmaps, histograms, competitions, bot matches, and themed editions."
         link="https://n2k-almanac-v3.web.app"
         techIcons={[
           icon("TypeScript", "TypeScript.svg"),
