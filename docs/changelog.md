@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-24 — Shorter card copy, two columns, seven cards
+
+- Every project card description cut to one or two plain sentences (Ethan:
+  the longer blurbs read as AI slop).
+- Removed the Political Compass 2026 and This Website cards and untracked
+  their screenshots; seven cards remain.
+- Projects grid is a fixed two columns above 1500px (index.css already
+  collapses it to one below that), instead of auto-fit on a 500px minimum.
+- Media Vault screenshot replaced: the old file was a title card, the new one
+  is a 1280x800 capture of the Places view on the synthetic demo library.
+- Added `.claude/launch.json` so the browser-pane preview can start the dev
+  server.
+- `npm run build` passed; preview checked at 1920 and 375 wide with a clean
+  console. Deploy remains Ethan's (`npm run deploy`).
+
 ## 2026-09-03 — Skyline Courier out, Political Compass 2026 in, real tab title
 
 - Removed the Skyline Courier card (Ethan: not polished enough to show) and

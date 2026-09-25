@@ -6,7 +6,7 @@
   padding: 1rem;
   border-radius: 0.5em;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   flex-wrap: wrap;
   justify-items: start;
   align-items: start;
