@@ -13,7 +13,7 @@ export default function Projects() {
       <Project
         title="GatesAI Chat"
         image={`${process.env.PUBLIC_URL}/gatesai-chat.png`}
-        description="Local-first AI chat desktop app built with React and Rust (Tauri), with a Go sidecar for sandboxed tool execution. Multi-model routing through OpenRouter or fully-local Ollama, agent tasks, persistent memory, 1,100+ automated tests, CI, and installers for Windows, macOS, and Linux. A browser demo runs at gatesai.site."
+        description="Local-first AI chat desktop app built with React and Rust (Tauri), with a Go sidecar for sandboxed tool execution. Multi-model routing through OpenRouter or fully-local Ollama, agent tasks, persistent memory, 1,100+ automated tests, CI, and installers for Windows, macOS, and Linux. A browser demo runs at gatesai.web.app."
         link="https://gatesai.web.app/"
         techIcons={[
           icon("TypeScript", "TypeScript.svg"),
