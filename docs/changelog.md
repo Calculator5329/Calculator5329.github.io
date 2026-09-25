@@ -11,6 +11,10 @@
   collapses it to one below that), instead of auto-fit on a 500px minimum.
 - Media Vault screenshot replaced: the old file was a title card, the new one
   is a 1280x800 capture of the Places view on the synthetic demo library.
+- Card hover no longer scales the card (the transform blurred and resized
+  the text); only the glow remains.
+- Card order: GatesAI Chat, Fathom, Media Vault, Agent Handles, Milo, Neon
+  Vector Defense, This Website, N2K Almanac.
 - Added `.claude/launch.json` so the browser-pane preview can start the dev
   server.
 - `npm run build` passed; preview checked at 1920 and 375 wide with a clean

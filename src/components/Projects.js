@@ -39,29 +39,15 @@ export default function Projects() {
       />
 
       <Project
-        title="N2K Almanac"
-        image={`${process.env.PUBLIC_URL}/n2k-almanac.png`}
-        description="An equation almanac for the N2K dice game. A solver precomputes the easiest equation for every solvable roll and serves it from a compact binary file in a Web Worker."
-        link="https://n2k-almanac-v3.web.app"
+        title="Media Vault"
+        image={`${process.env.PUBLIC_URL}/media-vault.png`}
+        description="A private photo and video library that runs on your own computer, with optional local AI for faces, text in photos and search by description. Nothing leaves the machine."
+        link="https://github.com/Calculator5329/media-vault-oss"
         techIcons={[
-          icon("TypeScript", "TypeScript.svg"),
-          icon("React", "React.svg"),
-          icon("MobX", "MobX.svg"),
-          icon("Tailwind CSS", "Tailwind.svg"),
-          icon("Vite", "Vite.js.svg"),
-        ]}
-      />
-
-      <Project
-        title="Neon Vector Defense"
-        image={`${process.env.PUBLIC_URL}/neon-vector-defense.png`}
-        description="A sci-fi tower defense game with a deterministic simulation core, so replays and headless balance sims are exact. The link opens a demo mode."
-        link="https://neon-vector-defense-7.web.app/?demo=1"
-        techIcons={[
-          icon("TypeScript", "TypeScript.svg"),
-          icon("React", "React.svg"),
-          icon("Firebase", "Firebase.svg"),
-          icon("Vite", "Vite.js.svg"),
+          icon("Python", "Python.svg"),
+          icon("SQLite", "SQLite.svg"),
+          icon("Hugging Face", "hf.svg"),
+          icon("GitHub", "GitHub.svg"),
         ]}
       />
 
@@ -79,19 +65,6 @@ export default function Projects() {
       />
 
       <Project
-        title="Media Vault"
-        image={`${process.env.PUBLIC_URL}/media-vault.png`}
-        description="A private photo and video library that runs on your own computer, with optional local AI for faces, text in photos and search by description. Nothing leaves the machine."
-        link="https://github.com/Calculator5329/media-vault-oss"
-        techIcons={[
-          icon("Python", "Python.svg"),
-          icon("SQLite", "SQLite.svg"),
-          icon("Hugging Face", "hf.svg"),
-          icon("GitHub", "GitHub.svg"),
-        ]}
-      />
-
-      <Project
         title="Milo"
         image={`${process.env.PUBLIC_URL}/milo.png`}
         description="A local voice companion built on whisper.cpp, Ollama and Pocket TTS. You can interrupt it mid-sentence, and it starts talking about 300 ms after you stop."
@@ -105,6 +78,19 @@ export default function Projects() {
       />
 
       <Project
+        title="Neon Vector Defense"
+        image={`${process.env.PUBLIC_URL}/neon-vector-defense.png`}
+        description="A sci-fi tower defense game with a deterministic simulation core, so replays and headless balance sims are exact. The link opens a demo mode."
+        link="https://neon-vector-defense-7.web.app/?demo=1"
+        techIcons={[
+          icon("TypeScript", "TypeScript.svg"),
+          icon("React", "React.svg"),
+          icon("Firebase", "Firebase.svg"),
+          icon("Vite", "Vite.js.svg"),
+        ]}
+      />
+
+      <Project
         title="This Website"
         image={`${process.env.PUBLIC_URL}/portfolio-site.png`}
         description="This site. A React single-page app on GitHub Pages, with the source on GitHub."
@@ -114,6 +100,20 @@ export default function Projects() {
           icon("React", "React.svg"),
           icon("CSS", "CSS.svg"),
           icon("GitHub", "GitHub.svg"),
+        ]}
+      />
+
+      <Project
+        title="N2K Almanac"
+        image={`${process.env.PUBLIC_URL}/n2k-almanac.png`}
+        description="An equation almanac for the N2K dice game. A solver precomputes the easiest equation for every solvable roll and serves it from a compact binary file in a Web Worker."
+        link="https://n2k-almanac-v3.web.app"
+        techIcons={[
+          icon("TypeScript", "TypeScript.svg"),
+          icon("React", "React.svg"),
+          icon("MobX", "MobX.svg"),
+          icon("Tailwind CSS", "Tailwind.svg"),
+          icon("Vite", "Vite.js.svg"),
         ]}
       />
     </div>
