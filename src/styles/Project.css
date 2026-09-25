@@ -1,17 +1,15 @@
 .projects-container {
-  margin: 0 auto;
-  flex: 2 1 500px;
+  margin: 0;
   background-color: #28282b;
   gap: 1.5rem;
   padding: 1rem;
   border-radius: 0.5em;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  flex-wrap: wrap;
-  justify-items: start;
+  justify-items: stretch;
   align-items: start;
-  flex: 0 0 auto;
-  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .project-card {
@@ -22,16 +20,16 @@
   flex-direction: column;
   text-decoration: none;
   color: #e4e4e7;
-  max-width: 700px;
   min-height: 350px;
   height: auto;
   padding: 1rem;
-  transition: box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 0 6px rgba(0, 24, 77, 0.3);
 }
 
 .project-card:hover {
-  box-shadow: 0 0 12px #2563eb;
+  transform: translateY(-6px);
+  box-shadow: 0 0 16px #2563eb;
 }
 
 .project-img-wrapper {

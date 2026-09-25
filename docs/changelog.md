@@ -15,6 +15,11 @@
   the text); only the glow remains.
 - Card order: GatesAI Chat, Fathom, Media Vault, Agent Handles, Milo, Neon
   Vector Defense, This Website, N2K Almanac.
+- Projects container fills its column (width 100%, border-box) so it matches
+  the education row at every width; at 2560 it used to sit 230px narrower on
+  each side. Cards stretch to their track.
+- Card hover lifts the card 6px with a stronger glow instead of scaling it.
+- Slim dark scrollbar (8px, zinc thumb) instead of a hidden one.
 - Added `.claude/launch.json` so the browser-pane preview can start the dev
   server.
 - `npm run build` passed; preview checked at 1920 and 375 wide with a clean
