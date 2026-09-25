@@ -56,7 +56,7 @@ a:hover {
 }
 
 a:visited {
-  color: #4f83c4; /* optional: tweak if you want visited links to look different */
+  color: #8a8a8a; /* same as unvisited; no colour flip after a click */
 }
 
 .main-container {

@@ -84,6 +84,15 @@
   text-align: right;
 }
 
+.info-value a,
+.info-value a:visited {
+  color: #4f83c4;
+}
+
+.info-value a:hover {
+  color: #7aa6d9;
+}
+
 .info-icon {
   display: flex;
   align-items: center;

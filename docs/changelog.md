@@ -20,6 +20,9 @@
   each side. Cards stretch to their track.
 - Card hover lifts the card 6px with a stronger glow instead of scaling it.
 - Slim dark scrollbar (8px, zinc thumb) instead of a hidden one.
+- Profile links (GitHub, LinkedIn, email) share one blue in every state; the
+  global visited-link colour no longer flips one of them after a click.
+- Ollama icon (simple-icons, CC0, light fill) on the GatesAI Chat card.
 - Added `.claude/launch.json` so the browser-pane preview can start the dev
   server.
 - `npm run build` passed; preview checked at 1920 and 375 wide with a clean

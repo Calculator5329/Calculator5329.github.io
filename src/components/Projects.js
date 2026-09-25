@@ -21,6 +21,7 @@ export default function Projects() {
           icon("OpenAI API", "OpenAI.svg"),
           icon("Anthropic", "Anthropic.svg"),
           icon("Gemini", "Gemini.svg"),
+          icon("Ollama", "Ollama.svg"),
         ]}
       />
 
