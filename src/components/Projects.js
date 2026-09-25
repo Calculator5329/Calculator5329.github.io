@@ -10,6 +10,7 @@ const icon = (name, file) => ({
 export default function Projects() {
   return (
     <div className="projects-container">
+      {/* BEGIN GENERATED projects:portfolio. Edit career/projects.json, then run make projects-generate. */}
       <Project
         title="GatesAI Chat"
         image={`${process.env.PUBLIC_URL}/gatesai-chat.png`}
@@ -117,6 +118,7 @@ export default function Projects() {
           icon("Vite", "Vite.js.svg"),
         ]}
       />
+      {/* END GENERATED projects:portfolio */}
     </div>
   );
 }
