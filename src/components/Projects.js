@@ -103,6 +103,19 @@ export default function Projects() {
           icon("GitHub", "GitHub.svg"),
         ]}
       />
+
+      <Project
+        title="This Website"
+        image={`${process.env.PUBLIC_URL}/portfolio-site.png`}
+        description="This site. A React single-page app on GitHub Pages, with the source on GitHub."
+        link="https://github.com/Calculator5329/Calculator5329.github.io"
+        techIcons={[
+          icon("JavaScript", "JavaScript.svg"),
+          icon("React", "React.svg"),
+          icon("CSS", "CSS.svg"),
+          icon("GitHub", "GitHub.svg"),
+        ]}
+      />
     </div>
   );
 }

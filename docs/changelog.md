@@ -4,8 +4,8 @@
 
 - Every project card description cut to one or two plain sentences (Ethan:
   the longer blurbs read as AI slop).
-- Removed the Political Compass 2026 and This Website cards and untracked
-  their screenshots; seven cards remain.
+- Removed the Political Compass 2026 card and its screenshot. The site card
+  stays, with a one-line blurb, so the two columns hold four cards each.
 - Projects grid is a fixed two columns above 1500px (index.css already
   collapses it to one below that), instead of auto-fit on a 500px minimum.
 - Media Vault screenshot replaced: the old file was a title card, the new one
