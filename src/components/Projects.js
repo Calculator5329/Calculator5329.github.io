@@ -54,22 +54,9 @@ export default function Projects() {
       />
 
       <Project
-        title="Agent Handles"
-        image={`${process.env.PUBLIC_URL}/agent-handles.png`}
-        description="Makes a web app's interface addressable by AI agents. Every element gets a stable id, tests are written as data, and an agent can drive the running app with a receipt for each action."
-        link="https://agent-handles.web.app"
-        techIcons={[
-          icon("TypeScript", "TypeScript.svg"),
-          icon("Vite", "Vite.js.svg"),
-          icon("React", "React.svg"),
-          icon("Firebase", "Firebase.svg"),
-        ]}
-      />
-
-      <Project
         title="Milo"
         image={`${process.env.PUBLIC_URL}/milo.png`}
-        description="A local voice companion built on whisper.cpp, Ollama and Pocket TTS. You can interrupt it mid-sentence, and it starts talking about 300 ms after you stop."
+        description="A local voice companion built on whisper.cpp, Ollama and Pocket TTS. You can interrupt it mid-sentence."
         link="https://github.com/Calculator5329/milo"
         techIcons={[
           icon("Python", "Python.svg"),
