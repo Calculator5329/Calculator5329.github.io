@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   justify-items: stretch;
-  align-items: start;
+  align-items: stretch; /* cards in a row share one height, so row bottoms line up */
   width: 100%;
   box-sizing: border-box;
 }

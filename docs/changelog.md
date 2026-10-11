@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-11 — Project cards in a row share one height
+
+- Cards in the same grid row had ragged bottom edges: the grid aligned them
+  to the top, so a three-line description (GatesAI Chat) made its card taller
+  than its two-line neighbour (Fathom). The grid now stretches each row's
+  cards to one height.
+- Measured in the preview at 1920 wide: every pair in a row reports the same
+  height and bottom edge; at 1400 (single column) nothing changes.
+- `npm run build` passed; deployed with `npm run deploy` (Ethan's go in chat,
+  2026-10-11).
+
 ## 2026-09-24 — Shorter card copy, two columns, seven cards
 
 - Every project card description cut to one or two plain sentences (Ethan:
