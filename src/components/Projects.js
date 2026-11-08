@@ -56,7 +56,7 @@ export default function Projects() {
       <Project
         title="Milo"
         image={`${process.env.PUBLIC_URL}/milo.png`}
-        description="A local voice companion built on whisper.cpp, Ollama and Pocket TTS. You can interrupt it mid-sentence."
+        description="A small robot companion run by a model I fine-tuned. Each turn it picks what to say, a face, a sound and a body action, all on the local machine."
         link="https://github.com/Calculator5329/milo"
         techIcons={[
           icon("Python", "Python.svg"),
